@@ -1,14 +1,17 @@
-import { Spinner as CatSpinner } from './component/CatSpinner';
+import { Spinner as CatSpinner } from "./component/CatSpinner";
 
-import './styles/App.css'; 
+import "./styles/App.css";
 
 function App() {
   return (
-    <div className="app-container" style={{ textAlign: 'center', paddingTop: '50px' }}>
+    <div
+      className="app-container"
+      style={{ textAlign: "center", paddingTop: "50px" }}
+    >
       <CatSpinner
-        isLoading={true} 
+        isLoading={true}
         size="custom"
-        captionText={[
+        captions={[
           "Polishing my tuxedo...",
           "Loading purrfectly...",
           "Thinking about tuna...",
@@ -17,11 +20,10 @@ function App() {
         captionInterval={3000}
       />
 
-      <div style={{ marginTop: '50px' }}>
-          <h1>This is a permanent dashboard.</h1>
-          <p>The Cat is always busy.</p>
+      <div style={{ marginTop: "50px" }}>
+        <h1>This is a permanent dashboard.</h1>
+        <p>The Cat is always busy.</p>
       </div>
-
     </div>
   );
 }
