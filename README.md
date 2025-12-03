@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/08f66698-47ad-4ee8-ba06-475de9647c87/deploy-status)](https://app.netlify.com/projects/tuxie-spinner/deploys)
 # Cat Spinner Component
 
 This repository contains a reusable tuxedo-cat-themed loading spinner built with React and TypeScript. It provides a friendly and engaging user experience during loading or busy application states.
